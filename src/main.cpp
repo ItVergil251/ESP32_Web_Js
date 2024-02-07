@@ -21,7 +21,7 @@ AsyncWebSocket ws("/ws");
 JSONVar readings;
 
 // Timer variables
-unsigned long timerDelay = 3000;
+unsigned long timerDelay = 30000;
 
 // Create a sensor object
 Adafruit_HTU21DF htu;
